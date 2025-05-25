@@ -1,16 +1,15 @@
 <template>
   <div>
-    <Navbar/>
+    <adminnavbar/>
     <slot />
     <!--Nuxt/-->
   </div>
 </template>
 
 <script setup>
-  import Navbar from '~/components/v1/navbar.vue';
+  import adminnavbar from '~/components/v1/adminnavbar.vue';
   import apitoken from '~/middleware/apitoken'
   await apitoken()
-
 </script>
 
 <style>

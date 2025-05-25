@@ -1,10 +1,11 @@
 <template>
   <div>
-    <h1>Hello nigger</h1>
+    admin-panel
   </div>
+  
 </template>
 
-<script setup>
+<script lang="ts" setup>
 
 </script>
 

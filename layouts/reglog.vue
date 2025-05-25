@@ -1,16 +1,13 @@
 <template>
   <div>
-    <Navbar/>
     <slot />
-    <!--Nuxt/-->
   </div>
 </template>
 
-<script setup>
-  import Navbar from '~/components/v1/navbar.vue';
+<script lang="ts" setup>
   import apitoken from '~/middleware/apitoken'
   await apitoken()
-
+  
 </script>
 
 <style>

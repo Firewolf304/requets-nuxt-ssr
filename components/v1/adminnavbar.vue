@@ -9,7 +9,7 @@
 
     const login = () => {
         // Логика для авторизации
-        navigateTo({path: "/login"})
+        //await navigateTo({path: "/login"})
         console.log('Авторизация')
     }
 
@@ -38,9 +38,9 @@
 </script>
 
 <template>
-  <CNavbar expand="lg" color-scheme="light" class="bg-light">
+  <CNavbar expand="lg" color="danger" class="bg-light">
     <CContainer fluid>
-      <CNavbarBrand href="#">Navbar</CNavbarBrand>
+      <CNavbarBrand href="#">Navbar-ADMIN</CNavbarBrand>
       <CNavbarToggler @click="visible = !visible" />
       <CCollapse class="navbar-collapse" :visible="visible">
         <CNavbarNav>

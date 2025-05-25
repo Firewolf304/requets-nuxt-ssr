@@ -1,10 +1,10 @@
 <template>
   <div>
-    <h1>Hello nigger</h1>
+    12312312
   </div>
 </template>
 
-<script setup>
+<script lang="ts" setup>
 
 </script>
 
