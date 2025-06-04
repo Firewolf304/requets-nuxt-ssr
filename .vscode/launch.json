@@ -7,14 +7,6 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Run nuxt",
-            "runtimeExecutable": "nuxt",
-            "cwd": "${workspaceFolder}",
-            "args": []
-        },
-        {
-            "type": "node",
-            "request": "launch",
             "name": "Launch Program",
             "runtimeExecutable": "npm",
             "runtimeArgs": [

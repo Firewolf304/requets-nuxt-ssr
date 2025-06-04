@@ -33,7 +33,10 @@ export default defineNuxtConfig({
         REDIS_URL: process.env.REDIS_URL,
         API_USER_AGENT: process.env.API_USER_AGENT,
         public:{
-            baseURL: process.env.API_URL || 'http://127.0.0.1:85'
+            baseURL: process.env.API_URL || 'http://127.0.0.1:85',
+            depricatedPaths: [
+                '/admin/*'
+            ]
         }
     }
 })
