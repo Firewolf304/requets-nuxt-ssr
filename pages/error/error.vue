@@ -15,7 +15,7 @@ export default {
       default: () => ({ statusCode: 500, message: 'An error occurred' })
     }
   },
-  layout: 'error' // Убедитесь, что у вас есть соответствующий layout, если это необходимо
+  layout: 'error'
 }
 </script>
 
